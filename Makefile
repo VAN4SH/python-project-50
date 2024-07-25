@@ -3,3 +3,6 @@ build:
 
 package-install:
 	pip install .
+
+lint:
+	poetry run flake8 gendiff
