@@ -1,2 +1,8 @@
 /dist
 __pycache__
+/build
+*.egg-info
+*.pyc
+.vscode
+.python-version
+
