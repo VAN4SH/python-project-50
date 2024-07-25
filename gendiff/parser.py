@@ -1,5 +1,7 @@
 import json
 import yaml
+import os
+
 
 def parse(data, file_format):
     if file_format == 'json':
