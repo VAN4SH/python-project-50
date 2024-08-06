@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "hexlet-code"
+name = "gendiff_dmitriev"
 version = "0.1.0"
-description = ""
+description = "python-project"
 authors = ["Dmitriev"]
 packages = [
   { include = "gendiff" },

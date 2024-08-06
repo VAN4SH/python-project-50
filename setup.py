@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='hexlet-code',
+    name='gendiff_dmitriev',
     version='0.1.0',
     packages=find_packages(),
     entry_points={
@@ -10,7 +10,8 @@ setup(
         ],
     },
     install_requires=[
-        # Здесь можно указать зависимости вашего проекта
+        'PyYAML>=6.0.1',
+        'pytest>=8.3.2'        
     ],
     include_package_data=True,
     classifiers=[
@@ -18,5 +19,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.10',
 )
