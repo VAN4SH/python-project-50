@@ -1,17 +1,14 @@
-import json
-import yaml
-import os
+import argparse
 
 
-def parse(data, file_format):
-    if file_format == "json":
-        return json.loads(data)
-    elif file_format in ["yml", "yaml"]:
-        return yaml.safe_load(data)
-    else:
-        raise ValueError(f"Unsupported file format: {file_format}")
-
-
-def get_file_format(filepath):
-    _, ext = os.path.splitext(filepath)
-    return ext[1:] if ext else None
+def parse():
+    """Parses arguments."""
+    parser = argparse.ArgumentParser(
+        description="Compares two configuration files and shows a difference."
+    )
+    parser.add_argument("first_file")
+    parser.add_argument("second_file")
+    parser.add_argument("-f", "--format", default='stylish',
+                        type=str, help="output format (default: 'stylish')")
+    args = parser.parse_args()
+    return (args.first_file, args.second_file, args.format)
