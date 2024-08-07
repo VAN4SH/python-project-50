@@ -19,4 +19,8 @@ Gendiff - программа, которая выводит различия м�
 
 [![asciicast](https://asciinema.org/a/CFbKKnaDtuPad2J9ojhXOHp0v.svg)](https://asciinema.org/a/CFbKKnaDtuPad2J9ojhXOHp0v)
 
+## Сравнение плоских файлов (YAML)
+```gendiff tests/file1.yaml tests/file2.yml```
+
+[![asciicast](https://asciinema.org/a/xAzCeNBwS8sJu8Umuiw3VY5YM.svg)](https://asciinema.org/a/xAzCeNBwS8sJu8Umuiw3VY5YM)
 
