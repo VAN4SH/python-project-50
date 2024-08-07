@@ -10,24 +10,16 @@ publish:
 gendiff:
 	poetry run gendiff
 
+build:
+	python3 setup.py sdist bdist_wheel
+
 package-install:
-	python3 -m pip install --user dist/*.whl --force
+	pip install .
 
 test:
 	poetry run pytest
 
-test-coverage:
-	poetry run pytest --cov=gendiff --cov-report xml
-
 lint:
 	poetry run flake8 gendiff tests
 
-selfcheck:
-	poetry check
 
-check: selfcheck test lint
-
-build: check
-	poetry build
-
-.PHONY: install test lint selfcheck check build
