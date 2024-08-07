@@ -24,3 +24,9 @@ Gendiff - программа, которая выводит различия м�
 
 [![asciicast](https://asciinema.org/a/xAzCeNBwS8sJu8Umuiw3VY5YM.svg)](https://asciinema.org/a/xAzCeNBwS8sJu8Umuiw3VY5YM)
 
+## Рекурсивное сравнение
+```gendiff tests/file1_nested.json tests/file2_nested.yaml```
+
+[![asciicast](https://https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL.svg)](https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL)
+
+
