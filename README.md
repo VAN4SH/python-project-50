@@ -27,7 +27,7 @@ Gendiff - программа, которая выводит различия м�
 ## Рекурсивное сравнение
 ```gendiff tests/file1_nested.json tests/file2_nested.yaml```
 
-[![asciicast](https://https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL.svg)](https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL)
+[![asciicast](https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL.svg)](https://asciinema.org/a/yy2b1cve3WyrNyNnLlqCsavVL)
 
 ## Сравнение в плоском формате
 ```gendiff -f plain tests/file1.json tests/file2.json```
