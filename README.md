@@ -9,3 +9,8 @@ Gendiff - программа, которая выводит различия м�
 
 [![asciicast](https://asciinema.org/a/F9KQYAN9Y0wxbnLzW6ID5KYkf.svg)](https://asciinema.org/a/F9KQYAN9Y0wxbnLzW6ID5KYkf)
 
+## Вывод справочной информации
+Для вывода справочной информации о программе используем команду ```gendiff -h```
+
+[![asciicast](https://asciinema.org/a/RLWKUHl3vyIXd6LzBOzWyX4ch.svg)](https://asciinema.org/a/RLWKUHl3vyIXd6LzBOzWyX4ch)
+
