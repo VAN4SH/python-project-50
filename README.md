@@ -7,3 +7,5 @@ Gendiff - программа, которая выводит различия м�
 ## Установка программы
 Для установки необходимо воспользоваться командой ```pip install gendiff-dmitriev```
 
+[![asciicast](https://asciinema.org/a/F9KQYAN9Y0wxbnLzW6ID5KYkf.svg)](https://asciinema.org/a/F9KQYAN9Y0wxbnLzW6ID5KYkf)
+
