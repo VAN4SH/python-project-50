@@ -4,7 +4,6 @@ dist/
 build/
 *.pyc
 .venv/
-.coverage
-coverage.xml
+setup.py
 .pytest_cache/
 
