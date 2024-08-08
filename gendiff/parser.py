@@ -11,4 +11,4 @@ def parse():
     parser.add_argument("-f", "--format", default='stylish',
                         type=str, help="output format (default: 'stylish')")
     args = parser.parse_args()
-    return (args.first_file, args.second_file, args.format)
+    return args.first_file, args.second_file, args.format

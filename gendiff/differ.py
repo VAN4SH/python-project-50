@@ -1,9 +1,7 @@
 def get_different(data1, data2):
     """Returns a list with a difference."""
     list_diff = []
-    keys_data1 = {key for key in data1.keys()}
-    keys_data2 = {key for key in data2.keys()}
-    set_keys = sorted(keys_data1 | keys_data2)
+    set_keys = sorted(data1.keys() | data2.keys())
     for key in set_keys:
         if key not in data2:
             list_diff.append({
